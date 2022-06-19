@@ -14,7 +14,7 @@ class ComponentType extends Model
     // A  Unique ID assigned by the inventory management system
     public function inventoryCode()
     {
-        return sprintf("CM/%02d",$this->id);
+        return "MS/CM/" . $this->id;
     }
 
     // Return the relative URL of the thumbnail

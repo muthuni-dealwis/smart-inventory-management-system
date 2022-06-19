@@ -14,7 +14,8 @@ class EquipmentType extends Model
     // A  Unique ID assigned by the inventory management system
     public function inventoryCode()
     {
-        return sprintf("EQ/%02d",$this->id);
+        // TODO: Make a common standard for this
+        return "MS/EQ/" . $this->id;
     }
 
     // Return the relative URL of the thumbnail

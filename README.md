@@ -6,14 +6,11 @@ Smart Inventory Management System for Department MakerSpace Lab
 
 ### Demo Credentials
 
-**Admin:** admin@example.com  
+**Admin:** admin@admin.com  
 **Password:** admin_user
 
-**User:** user@example.com  
+**User:** user@user.com  
 **Password:** regular_user
-
-**User:** lecturer@example.com  
-**Password:** lecturer_user
 
 ### Introduction
 
@@ -110,7 +107,7 @@ php artisan test
 
 ```
 
-#### Resource Routes
+#### Resource Routes 
 
 |Verb	|URI	|Action	|Route Name |
 |:------|:------|:------|:----------|
@@ -121,3 +118,4 @@ php artisan test
 |GET	|/comments/{comment}/edit	|edit	|comments.edit
 |PUT/PATCH	|/comments/{comment}	|update	|comments.update
 |DELETE	|/comments/{comment}	|destroy	|comments.destroy
+
